@@ -66645,7 +66645,7 @@ $2(a,b){var s=null,r=this.a.e[b],q=A.me(8),p=A.akw(A.akv(r.Q,"720")),o=$.u_(),n=
 return new A.oW(q,A.bg(s,A.DZ(A.a([A.lx(B.by,A.a([new A.CJ(1,p,s),A.xq(10,A.jX(A.Fq("images/icon_fresh_add.png",s,s,40),new A.aaM(),o),s,s,s,10,s,s)],n),B.bf,s,s),A.bg(s,A.cQ(r.d,2,s,s,A.bM(s,s,B.bD,s,s,s,s,s,s,s,s,22,s,B.aX,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s,s,s,new A.ar(10,10,10,10),s,s),A.bg(s,A.cQ(r.f,s,s,s,A.bM(s,s,B.lV,s,s,s,s,s,s,s,s,22,s,B.aX,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s,s,s,new A.ar(10,0,10,0),s,s),A.bg(s,A.cQ(r.at,s,s,s,A.bM(s,s,B.cM,s,B.IB,s,s,s,s,s,s,18,s,B.al,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s,s,s,new A.ar(10,5,10,0),s,s)],n),B.cO,B.aI),B.k,s,s,s,s,s,s),s)},
 $S:414}
 A.aaM.prototype={
-$0(){var s="JS\u6267\u884c\u7684\u8fd4\u56de\u662f:"+A.e(J.cU($.ox().mH("callBackFormJs.showMessage",["\u6211\u5728web\u9875\u9762\u6267\u884cJS--->callBackFormJs.showMessage"])))
+$0(){var s="JS\u6267\u884c\u7684\u8fd4\u56de\u662f:"+A.e(J.cU($.ox().mH("callNative",["showMessage","\u6211\u5728web\u9875\u9762\u6267\u884cJS--->callBackFormJs.showMessage"])))
 A.hf($.awv)
 A.hf("")
 if(s.length<800)A.hf(s)

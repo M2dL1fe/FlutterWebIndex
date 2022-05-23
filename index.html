@@ -14,7 +14,7 @@
       This is a placeholder for base href that will be replaced by the value of
       the `--base-href` argument provided to `flutter build`.
     -->
-<!--    <base href="/">-->
+    <!--    <base href="/">-->
     <base href="/FlutterWebIndex/">
 
     <meta charset="UTF-8">
@@ -35,26 +35,28 @@
 
     <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '942362765';
+    var serviceWorkerVersion = '3792724395';
+
+
 
 
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
 
-<!--    <style type="text/css">-->
-<!--        @font-face {-->
-<!--      font-family: 'CircularStd';-->
-<!--      font-weight: 200;-->
-<!--      font-style: normal;-->
-<!--      font-stretch: normal;-->
-<!--      src: url('./font/CircularStd-Book.eot') format('embedded-opentype'),-->
-<!--        url('./font/CircularStd-Book.woff') format('woff'),-->
-<!--        url('./font/CircularStd-Book.ttf') format('truetype'),-->
-<!--        url('./font/font_test.ttf') format('truetype');-->
-<!--    }-->
+    <!--    <style type="text/css">-->
+    <!--        @font-face {-->
+    <!--      font-family: 'CircularStd';-->
+    <!--      font-weight: 200;-->
+    <!--      font-style: normal;-->
+    <!--      font-stretch: normal;-->
+    <!--      src: url('./font/CircularStd-Book.eot') format('embedded-opentype'),-->
+    <!--        url('./font/CircularStd-Book.woff') format('woff'),-->
+    <!--        url('./font/CircularStd-Book.ttf') format('truetype'),-->
+    <!--        url('./font/font_test.ttf') format('truetype');-->
+    <!--    }-->
 
-<!--    </style>-->
+    <!--    </style>-->
 </head>
 <body>
 <script>
@@ -70,6 +72,15 @@
         return appRunner.runApp();
       });
     });
+
+    function showMessage(str){
+        alert(str);
+    }
+
+    // 调用系统方法
+    function callNative(name, params = []) {
+     window.callBackFormJs && window.callBackFormJs[name](...params);
+    }
 
 
 </script>
