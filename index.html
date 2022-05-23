@@ -35,7 +35,7 @@
 
     <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3792724395';
+    var serviceWorkerVersion = '3118536222';
 
 
 
@@ -78,8 +78,9 @@
     }
 
     // 调用系统方法
-    function callNative(name, params = []) {
-     window.callBackFormJs && window.callBackFormJs[name](...params);
+    function callNative(name, params) {
+     showMessage("callNative(name:"+name+",,,params:"+params+")");
+     window.callBackFormJs && window.callBackFormJs[name](params);
     }
 
 
